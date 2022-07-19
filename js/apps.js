@@ -78,8 +78,8 @@ Drink.prototype.renderTable = function () {
 }
 
 let latte = new Drink("Latte", ["milk", "ice", "sugar"], "assets/latte.png", true, true, 1);
-let mocha = new Drink("mocha", ["milk", "coffee", "ice", "sugar"], "./assets/mocha.png", true, false, 2);
-let hotChocalte = new Drink("hot chocalte", ["milk", "coffee", "ice", "sugar"], "../assets/mocha.png", true, false, 2)
+let mocha = new Drink("mocha", ["milk", "coffee", "ice", "sugar"], "assets/mocha.png", true, false, 2);
+let hotChocalte = new Drink("hot chocalte", ["milk", "coffee", "ice", "sugar"], "assets/mocha.png", true, false, 2)
 
 function renderAll() {
     for (let i = 0; i < allDrinks.length; i++) {
